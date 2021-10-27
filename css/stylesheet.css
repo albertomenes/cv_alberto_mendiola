@@ -106,12 +106,7 @@ a {
 a:hover {
     color: #ca552b;
 }
-  /*estilo para los link que no tienen ninguna dirección*/
-a:not([href]):not([class]), a:not([href]):not([class]):hover {
-    color: inherit;
-    text-decoration: none;
-}
-
+ 
 hr {
     margin: 1rem 0;   /*rem usa el tamaño del root, haciendo la responsividad más efectiva*/
     color: inherit;
@@ -325,7 +320,11 @@ section.resume-section {
     font-size: 3rem;
   }
 
-
+.img-icon{
+  width: 3rem;
+  color:rgba(255, 255, 255, 0.15);
+  
+}
   
   .breadcrumb {
     
@@ -394,4 +393,12 @@ section.resume-section {
  }
  #engBreadcrum{
    opacity: 0.5;
+ }
+ .english{ 
+   display: none;
+ }
+ @media (max-width: 952px){
+   .dev-icons{
+     text-align: center;
+   }
  }
