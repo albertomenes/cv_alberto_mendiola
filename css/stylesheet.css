@@ -100,13 +100,15 @@ nav {
 
 /*estilo de los links*/
 a {
-    color: #E29578;
+    color: #ca552b;
     text-decoration: underline;
   }
 a:hover {
-    color: #ca552b;
+    color: orangered;
 }
- 
+.text-link{
+  color: #ca552b;
+}
 hr {
     margin: 1rem 0;   /*rem usa el tamaño del root, haciendo la responsividad más efectiva*/
     color: inherit;
