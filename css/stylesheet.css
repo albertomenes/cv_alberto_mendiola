@@ -328,6 +328,9 @@ section.resume-section {
   
   
 }
+.text-justify{
+  text-align: justify;
+}
   
   .breadcrumb {
     
